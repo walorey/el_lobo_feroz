@@ -41,3 +41,33 @@ object chanchitos {
 	
 }
 
+object bosque{
+	var tiempo = 5
+}
+
+object casaAbuelita{
+	var tiempo = 10
+}
+
+object casaPaja{
+	var tiempo = 0	
+	var resistencia = 0
+}
+
+object casaMadera{
+	var tiempo = 5
+	var resistencia = 5
+}
+
+object casaLadrillos{
+	var tiempo = 10
+	var ladrillos = 0
+	var resistencia = 2*ladrillos
+	
+	method ladrillos(cantidad){
+		ladrillos = cantidad
+	}
+	method dameResistencia(){
+		return resistencia
+	}
+}
