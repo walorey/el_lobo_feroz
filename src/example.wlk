@@ -34,6 +34,9 @@ object lobo {
 }
 
 object caperucita {
+	//el peso de caperucita hay que asignarlo o establecerlo?
+	var peso = 45
+	//el peso de la canasta es aparte de las calorias del total de las manzanas o es lo mismo?
 	
 }
 
