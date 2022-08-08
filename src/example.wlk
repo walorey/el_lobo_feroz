@@ -31,6 +31,19 @@ object lobo {
 	method correr(minutos){
 		calorias = calorias - minutos*2
 	}
+	
+	//el lugar a donde corre depende de donde esta o desde un inicio en particular?
+	
+	//como represento el relato?
+	
+	//puedo poner un objeto como parametro? lo digo por los 3 chanchitos y las casas diferentes
+	
+	method comerPersonaje(){
+		
+	}
+	//falta saber como comerme a caperucita porque no se si tengo que agregar el peso o establecerlo
+	//si las manzanas las tengo que poner como parametro o establecerlas
+	//si come con una sola funcion y tengo que variar el personaje
 }
 
 object caperucita {
@@ -40,8 +53,8 @@ object caperucita {
 	
 }
 
-object chanchitos {
-	
+object chanchito {
+	var peso = 15
 }
 
 object bosque{
